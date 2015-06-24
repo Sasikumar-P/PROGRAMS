@@ -1,0 +1,10 @@
+def author(self,name):
+	def helper(self,theme):
+		theme.author = self.name
+		return theme
+	return helper
+
+@author('sasikumar')
+def func():
+	pass
+print func.author

@@ -1,0 +1,6 @@
+results=[]
+ascii="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+for i in range(len(ascii)):
+	print i, " -------",ord(ascii[i])
+	results.append(ord(ascii[i])
+	print 'results'

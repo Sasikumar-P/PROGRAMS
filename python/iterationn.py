@@ -1,0 +1,11 @@
+product=[]
+product = input("enter the list to multiply")
+value=input("enter the value to multiply the list")
+i=iter(product)
+while True:
+	try:
+		value*=next(i)
+	except StopIteration:
+		break
+
+print value
